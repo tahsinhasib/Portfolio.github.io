@@ -8,20 +8,11 @@ window.onscroll = () => {
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
-    centeredSlides: false,
-    slidesPerGroupSkip: 1,
+    spaceBetween: 50,
+    loop: true,
     grabCursor: true,
     keyboard: {
       enabled: true,
-    },
-    breakpoints: {
-      769: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
-      },
-    },
-    scrollbar: {
-      el: ".swiper-scrollbar",
     },
     navigation: {
       nextEl: ".swiper-button-next",

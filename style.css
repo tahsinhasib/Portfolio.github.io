@@ -408,14 +408,20 @@ span {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 5rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .certificates-container .certificates-wrapper {
     position: relative;
     max-width: 90rem;
     width: 100%;
-    padding: 5rem;
+    padding: 2rem;
+}
+
+.certificates-wrapper .certificates-box {
+    padding: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 .certificates-content .certificates-slide {
@@ -447,4 +453,21 @@ span {
 .certificates-slide p {
     font-size: 1.4rem;
     text-align: center;
+}
+
+.certificates-box .swiper-button-next,
+.certificates-box .swiper-button-prev {
+    color: var(--main-color);
+}
+
+.certificates-box .swiper-button-next {
+    right: 0;
+}
+
+.certificates-box .swiper-button-prev {
+    left: 0;
+}
+
+.certificates-box .swiper-pagination-bullet-active {
+    background: var(--main-color);
 }
