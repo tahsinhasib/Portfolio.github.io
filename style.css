@@ -555,6 +555,10 @@ span {
     outline-color: var(--white-color);
 }
 
+
+
+
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -684,7 +688,7 @@ span {
         font-size: 2.6rem;
     }
 
-    .home-content h1 {
+    .home-content h4 {
         font-size: 5rem;
     }
 
@@ -758,7 +762,7 @@ span {
     }
 
     .about-img img {
-        width: 70vh;
+        width: 70vw;
         margin-top: -2rem;
     }
 
@@ -788,5 +792,54 @@ span {
 @media (max-width: 617px) {
     .projects .projects-container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    #darkMode-icon {
+        right: 6rem;
+    }
+
+    .home {
+        padding: 0 3% 30rem;
+    }
+
+    .home .profession-box .profession:nth-child(1) {
+        transform: rotate(-90deg) translate(-110px, -220px);
+    }
+
+    .home .profession-box .profession:nth-child(2) {
+        transform: rotate(0deg) translate(5px, -335px);
+    }
+
+    .home .profession-box .profession:nth-child(3) {
+        transform: rotate(90deg) translate(-105px, -440px);
+    }
+
+    .home .profession-box .profession:nth-child(1) {
+        transform: rotate(180deg) translate(-210px, -335px);
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .about-img {
+        width: 90vw;
+    }
+    
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
     }
 }
