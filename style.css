@@ -837,7 +837,7 @@ span {
         padding: 0 3% 30rem;
     }
 
-    .home .profession-box .profession:nth-child(1) {
+    /* .home .profession-box .profession:nth-child(1) {
         transform: rotate(-90deg) translate(-110px, -220px);
     }
 
@@ -849,8 +849,28 @@ span {
         transform: rotate(90deg) translate(-105px, -440px);
     }
 
-    .home .profession-box .profession:nth-child(1) {
+    .home .profession-box .profession:nth-child(4) {
         transform: rotate(180deg) translate(-210px, -335px);
+    } */
+
+    .home .profession-box .profession:nth-child(1) {
+        transform: rotate(-90deg) translate(-103px, -229px);
+    }
+
+    .home .profession-box .profession:nth-child(1) i {
+        margin-right: 0;
+    }
+
+    .home .profession-box .profession:nth-child(2) {
+        transform: rotate(0deg) translate(0, -335px);
+    }
+
+    .home .profession-box .profession:nth-child(3) {
+        transform: rotate(90deg) translate(-78px, -414px);
+    }
+
+    .home .profession-box .profession:nth-child(4) {
+        transform: rotate(180deg) translate(-153px, -338px);
     }
 
     .contact form .input-box input {
