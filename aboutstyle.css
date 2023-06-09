@@ -123,7 +123,15 @@ section {
     text-transform: uppercase;
 }
 
-.educationlists {
+.blocks {
+    display: flex;
+    place-content: space-evenly;
+    /* padding-left: 20%; */
+    padding-top: 20%;
+}
+
+
+/* .educationlists {
     position: absolute;
     padding-left: 20%;
     top: 150px;
@@ -137,7 +145,38 @@ section {
     font-size: 2.5rem;
     color: white;
     font-weight: 900;
+} */
+
+.educationlists h1 {
+    position: absolute;
+    padding-left: 0%;
+    top: 430px;
+    transform: skewY(-15deg);
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 900;
 }
+
+.languageslists h1 {
+    position: absolute;
+    padding-left: 0%;
+    top: 430px;
+    transform: skewY(-15deg);
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 900;
+}
+
+.projectslists h1 {
+    position: absolute;
+    padding-left: 0%;
+    top: 430px;
+    transform: skewY(-15deg);
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 900;
+}
+
 
 
 
@@ -202,4 +241,17 @@ ul li::after {
 
 ul li:hover::after {
     background: #2982b9;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .blocks {
+        display: flex;
+        place-content: space-evenly;
+        /* padding-left: 20%; */
+        padding-top: 20%;
+    }
 }
